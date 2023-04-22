@@ -1,15 +1,8 @@
 h1{
     color:rgb(203, 98, 17);
-    font-size:  2em;
+    font-size:  120px;
     text-align: center;
     font-family: Bernard MT Condensed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    text-shadow: 3px 3px 3px rgb(170, 18, 18);
-    line-height: 1.5em;
-    margin:0 auto
     
 }
 
@@ -47,17 +40,17 @@ p { font-size: 35px;
     background-clip: text;
     color: transparent;
     font-family: Arial;
-    font-weight: bolder}
-
-    @media only screen and (max-width: 600px) {
+    font-weight: bolder 
+}
+    
+    @media only screen and (max-width: 700px) and( max-width: 900px){
         /* estilos para pantallas de menos de 600px de ancho */
       }
       
       @media only screen and (min-width: 601px) and (max-width: 1024px) {
         /* estilos para pantallas de entre 601px y 1024px de ancho */
       }
-      
-      @media only screen and (min-width: 1025px) {
+  
+      @media only screen and (min-width: 1025px) and (max-width: 2035px){
         /* estilos para pantallas de más de 1025px de ancho */
       }
-      
