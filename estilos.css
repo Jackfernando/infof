@@ -1,6 +1,6 @@
 h1{
     color:rgb(203, 98, 17);
-    font-size:  120px;
+    font-size:  2em;
     text-align: center;
     font-family: Bernard MT Condensed;
     top: 50%;
@@ -8,6 +8,9 @@ h1{
     transform: translate(-50%, -50%);
     position: absolute;
     text-shadow: 3px 3px 3px rgb(170, 18, 18);
+    line-height: 1.5em;
+    margin:0 auto
+    
 }
 
 body{ 
